@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TCM - Practical Ethical Hacking 2024-9</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        .video-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .drive-iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<header>
+<nav class="wrapper">
+<i class="fa-solid fa-angle-left arrow" id="left"></i>
+<ul class="carousel">
+<!-- Navigation items will be inserted here -->
+<li class="card"><a href="index.html">1. Before We Begin</a></li>
+<li class="card"><a href="s2.html">2. Introduction</a></li>
+<li class="card"><a href="s3.html">3. Notekeeping</a></li>
+<li class="card"><a href="s4.html">4. Networking Refresher</a></li>
+<li class="card"><a href="s5.html">5. Setting Up Our Lab</a></li>
+<li class="card"><a href="s6.html">6. The Ethical Hacker Methodology</a></li>
+<li class="card" id="actuel"><a href="s7.html">7. Information Gathering (Reconnaissance)</a></li>
+<li class="card"><a href="s8.html">8. Scanning &amp; Enumeration</a></li>
+<li class="card"><a href="s9.html">9. Vulnerability Scanning with Nessus</a></li>
+<li class="card"><a href="s10.html">10. Exploitation Basics</a></li>
+<li class="card"><a href="s11.html">11. New Capstone</a></li>
+<li class="card"><a href="s12.html">12. Active Directory Overview</a></li>
+<li class="card"><a href="s13.html">13. Active Directory Lab Build</a></li>
+<li class="card"><a href="s14.html">14. Attacking Active Directory Initial Attack Vectors</a></li>
+<li class="card"><a href="s15.html">15. Attacking Active Directory Post-Compromise Enumeration</a></li>
+<li class="card"><a href="s16.html">16. Attacking Active Directory Post-Compromise Attacks</a></li>
+<li class="card"><a href="s17.html">17. We've Compromised the Domain - Now What</a></li>
+<li class="card"><a href="s18.html">18. Additional Active Directory Attacks</a></li>
+<li class="card"><a href="s19.html">19. Active Directory Case Studies</a></li>
+<li class="card"><a href="s20.html">20. Post Exploitation</a></li>
+<li class="card"><a href="s21.html">21. Web Application Enumeration, Revisited</a></li>
+<li class="card"><a href="s22.html">22. Find &amp; Exploit Common Web Vulnerabilities</a></li>
+<li class="card"><a href="s23.html">23. Wireless Penetration Testing</a></li>
+<li class="card"><a href="s24.html">24. Legal Documents and Report Writing</a></li>
+<li class="card"><a href="s25.html">25. Career Advice</a></li></ul>
+<i class="fa-solid fa-angle-right arrow" id="right"></i>
+</nav>
+</header>
+<!-- Navigation buttons -->
+<button class="arrow-button" id="left-arrow" onclick="navigate('s6.html')">←</button>
+<button class="arrow-button" id="right-arrow" onclick="navigate('s8.html')">→</button>
+<main>
+<!-- Video sections will be inserted here -->
+
+<section class="section" id="section20">
+<h2 class="video-title">48. Passive Reconnaissance Overview</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1J_JXa4zWvdcF-QIh2g77iL7K215jtuSK/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 0)">Previous Video</button>
+<button onclick="navigateToSection('next', 0)">Next Video</button>
+<textarea class="notes-input" id="notes20" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section21">
+<h2 class="video-title">49. Identifying Our Target</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1JVWpM23tzkP_nuR56kJw0S-VdRpN4Hxa/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 1)">Previous Video</button>
+<button onclick="navigateToSection('next', 1)">Next Video</button>
+<textarea class="notes-input" id="notes21" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section22">
+<h2 class="video-title">50. Discovering Email Addresses</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1Jco1HHc4vOrh_XTDu7S0CJMqy5SIZqqG/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 2)">Previous Video</button>
+<button onclick="navigateToSection('next', 2)">Next Video</button>
+<textarea class="notes-input" id="notes22" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section23">
+<h2 class="video-title">51. Gathering Breached Credentials with Breach-Parse</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1Ji0MGcBEsnYsP0FFMLQVpX5fjL3Hx01M/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 3)">Previous Video</button>
+<button onclick="navigateToSection('next', 3)">Next Video</button>
+<textarea class="notes-input" id="notes23" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section24">
+<h2 class="video-title">52. Hunting Breached Credentials with DeHashed</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1Jbs8aj7wLtWWsYUBdB-wgKbeBwJA7-QF/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 4)">Previous Video</button>
+<button onclick="navigateToSection('next', 4)">Next Video</button>
+<textarea class="notes-input" id="notes24" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section25">
+<h2 class="video-title">53. Hunting Subdomains Part 1</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1KVgsQ2vJlmrrGbWI-RvsOtwhDOH6cl6h/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 5)">Previous Video</button>
+<button onclick="navigateToSection('next', 5)">Next Video</button>
+<textarea class="notes-input" id="notes25" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section26">
+<h2 class="video-title">54. Hunting Subdomains Part 2</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1JVzNr1EEPQT1BCRupfjTVec9LIBnR3LY/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 6)">Previous Video</button>
+<button onclick="navigateToSection('next', 6)">Next Video</button>
+<textarea class="notes-input" id="notes26" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section27">
+<h2 class="video-title">55. Identifying Website Technologies</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1KZXEVlYHRKynD3KE1hkRMssTRWbm5Wwq/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 7)">Previous Video</button>
+<button onclick="navigateToSection('next', 7)">Next Video</button>
+<textarea class="notes-input" id="notes27" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section28">
+<h2 class="video-title">56. Information Gathering with Burp Suite</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1JkBTrXOOcDcS9vAUktsMvf1f03Qma0-n/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 8)">Previous Video</button>
+<button onclick="navigateToSection('next', 8)">Next Video</button>
+<textarea class="notes-input" id="notes28" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section29">
+<h2 class="video-title">57. Google Fu</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1JuHisRyLFh0OxXQaldVku92TfSUypeFs/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 9)">Previous Video</button>
+<button onclick="navigateToSection('next', 9)">Next Video</button>
+<textarea class="notes-input" id="notes29" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section30">
+<h2 class="video-title">58. Utilizing Social Media</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1KGJBbTicVtu-AaCUq2zaDJDPrnkyueaB/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 10)">Previous Video</button>
+<button onclick="navigateToSection('next', 10)">Next Video</button>
+<textarea class="notes-input" id="notes30" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section31">
+<h2 class="video-title">59. Additional Learning (OSINT Fundamentals)</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1JXhoYCPkr-8vWFLUnyVHG-sQ5l6fPPDF/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 11)">Previous Video</button>
+<button onclick="navigateToSection('next', 11)">Next Video</button>
+<textarea class="notes-input" id="notes31" placeholder="Write your notes here..."></textarea>
+</section>
+</main>
+<!-- Footer elements -->
+<div class="footer-buttons">
+<button id="backToTop" style="display: none;">
+<i class="fas fa-arrow-up"></i>
+</button>
+<button id="exportButton">
+<i class="fas fa-file-export"></i>
+</button>
+<input accept=".json" id="importButton" type="file"/>
+<button id="importDataButton">
+<i class="fas fa-file-import"></i>
+</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
